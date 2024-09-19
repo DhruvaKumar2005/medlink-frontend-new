@@ -1,0 +1,60 @@
+.cards-container{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.dashboard-container {
+    width: 84.4vw;
+    margin-right: 5rem;
+    padding: 3rem 3rem;
+}
+
+.dashboard-container h2, .dashboard-container p {
+    margin: 0;
+}
+
+.dashboard-header-container h2 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.dashboard-header-container p {
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.schedule-container {
+    width: 25%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.329);
+    border-radius: 12px;
+}
+
+.schedule-container h2, .schedule-container h3, .schedule-container h4, .schedule-container h5 .schedule-container p {
+    margin: 0;
+}
+
+.schedule-card-container {
+    padding: 1rem;
+}
+
+.schedule-card-header p {
+    color: rgba(0, 0, 0, 0.473);
+    font-size: 12px;
+    border: solid 1px rgba(0, 0, 0, 0.473);
+    padding: 0.2rem;
+    width: max-content;
+}
+
+.schedule-card-header h5 {
+    margin: 0;
+}
+
+.schedule-profile-container {
+    display: flex;
+}
+
+.sc-button-container {
+    display: flex;
+    justify-content: space-between;
+}

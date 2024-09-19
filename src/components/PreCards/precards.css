@@ -1,0 +1,31 @@
+.precard-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.274);
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.precard-container h2, .precard-container h3, .precard-container p {
+    margin: 0;
+}
+
+.precard-info {
+    display: flex;
+    gap: 20px;
+}
+
+.active-pres {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.refill-req {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
