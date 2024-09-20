@@ -26,6 +26,7 @@ const Dashboard = () => {
           <PreCards />
         </div>
         <div className="schedule-container">
+          <h3 className='up-header'>Upcoming</h3>
           <div className="schedule-card-container">
             <div className="schedule-card-header">
               <p>CONSULT</p>
