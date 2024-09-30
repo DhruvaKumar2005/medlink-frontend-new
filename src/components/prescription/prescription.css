@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 20px;
   background-color: #f0f4f8;
+  display: block;
 }
 
 .header {
