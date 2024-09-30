@@ -8,7 +8,7 @@
 .dashboard-container {
     width: 84.4vw;
     margin-right: 5rem;
-    padding: 3rem 3rem;
+    padding: 3rem 3rem; 
 }
 
 .dashboard-container h2, .dashboard-container p {
@@ -24,18 +24,24 @@
     color: rgba(0, 0, 0, 0.692);
 }
 
-.schedule-container {
-    width: 25%;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.329);
-    border-radius: 12px;
-}
 
 .schedule-container h2, .schedule-container h3, .schedule-container h4, .schedule-container h5 .schedule-container p {
     margin: 0;
 }
 
+.schedule-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 .schedule-card-container {
-    padding: 1rem;
+    width: max-content;
+    padding: 1.5rem 1.5rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.329);
+    border-radius: 12px;
+    height: max-content;
 }
 
 .schedule-card-header p {
@@ -46,15 +52,45 @@
     width: max-content;
 }
 
+.up-header {
+    padding-left: 15px;
+}
+
 .schedule-card-header h5 {
     margin: 0;
+    font-weight: 400;
 }
+
 
 .schedule-profile-container {
     display: flex;
 }
 
+.schedule-profile-container i {
+    font-size: 40px;
+}
+
 .sc-button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sc-button-container p {
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.sc-button-container p:nth-child(1) {
+    background-color: aqua;
+}
+
+.sc-button-container p:nth-child(2) {
+    color: white;
+    background-color: #2e1065;
+}
+
+.prescription-container {
     display: flex;
     justify-content: space-between;
 }
