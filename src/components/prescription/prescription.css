@@ -1,0 +1,124 @@
+.prescription-container {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f4f8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.template-type {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.prescription-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.doctor-info h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.doctor-info p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.hospital-logo {
+  text-align: right;
+}
+
+.hospital-logo img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.patient-info {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.prescription-content {
+  display: flex;
+  gap: 40px;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h4 {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #2c7a7b;
+  margin-bottom: 10px;
+}
+
+h4 svg {
+  margin-right: 8px;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.action-buttons button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.save-send {
+  background-color: #2c7a7b !important;
+  color: #fff;
+  border: none !important;
+}
